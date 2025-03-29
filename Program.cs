@@ -31,17 +31,35 @@
 //    meuCarro = new CarroCombustao();
 //}
 
+//using Heranca;
+
+//PessoaF pFis = new PessoaF();
+//pFis.nome = "Jurandir";
+//pFis.CPF = "40028922";
+
+//PessoaJ pJur = new PessoaJ();
+//pJur.nome = "YudiPLAYStory";
+//pJur.CNPJ = "741258963/0002-84";
+
+
+
 using Heranca;
 
-PessoaF pFis = new PessoaF();
-pFis.nome = "Jurandir";
-pFis.CPF = "40028922";
+Carro car1 = new Carro();
 
-PessoaJ pJur = new PessoaJ();
-pJur.nome = "YudiPLAYStory";
-pJur.CNPJ = "741258963/0002-84";
+CarroEletrico carE = new CarroEletrico();
 
+car1.modelo = "Fusca";
+car1.marca = "Volkswagem";
+car1.quilometragem = 5000;
 
+carE.modelo = "Tesla Model S";
+carE.marca = "Tesla";
+carE.quilometragem = 1000;
+carE.bateria = 200;
+carE.tempoDeCarga = 50;
+
+carE.MostrarInfo("Juriscreide");
 
 
 
